@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="180"
+   height="180"
+   viewBox="0 0 180 180"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="logo-Guillaume EGMANN.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlnssvg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="4.3722222"
+     inkscape:cx="89.428208"
+     inkscape:cy="91.3723"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="1261"
+     inkscape:window-y="1341"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#000000;fill-opacity:0;stroke:#000400;stroke-width:2.65681;stroke-miterlimit:4.7;stroke-dasharray:none;stroke-opacity:1"
+       d="m 138.89201,114.84606 c -13.67226,38.48486 -43.548683,36.45935 -43.548683,36.45935 V 87.50154 23.093629 c 0,0 29.370033,-0.408716 43.548683,40.101675"
+       id="path1"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#000000;fill-opacity:0;stroke:#000400;stroke-width:2.65681;stroke-miterlimit:4.7;stroke-dasharray:none;stroke-opacity:1"
+       d="M 95.343327,97.122771 H 109.52197"
+       id="path2" />
+    <path
+       style="fill:#000000;fill-opacity:0;stroke:#000400;stroke-width:2.65681;stroke-miterlimit:4.7;stroke-dasharray:none;stroke-opacity:1"
+       d="M 87.534245,62.182545 87.232223,23.191292 c 0,0 -35.437566,2.02552 -46.577922,38.991256 0,2.457116 -22.280718,83.383082 47.093332,89.122862 V 111.80778 H 73.062614"
+       id="path3"
+       sodipodi:nodetypes="cccccc" />
+  </g>
+</svg>

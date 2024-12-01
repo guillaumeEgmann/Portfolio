@@ -1,0 +1,193 @@
+.about {
+    font-size: 48px;
+    color: #333;
+    text-align: center;
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.description-text {
+  line-height: 1.8;
+  font-size: 1.4rem;
+  text-align: justify;
+  padding: 2rem;
+  color: #FFFFFF;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.highlight {
+  color: rgba(1, 218, 218, 0.5);
+  font-weight: 600;
+}
+
+.emphasis {
+  color: #FFFFFF;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.profile-image-container {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  z-index: 2;
+}
+
+.rotating-border {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  right: -15px;
+  bottom: -15px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  border-top-color: rgba(1, 218, 218, 0.5);
+  animation: rotate1 4s linear infinite;
+}
+
+.rotating-border-2 {
+  position: absolute;
+  top: -22px;
+  left: -22px;
+  right: -22px;
+  bottom: -22px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  border-left-color: rgba(1, 218, 218, 0.5);
+  animation: rotate2 3s linear infinite;
+}
+
+.rotating-border-3 {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  right: -30px;
+  bottom: -30px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  border-right-color: rgba(1, 218, 218, 0.5);
+  animation: rotate3 5s linear infinite;
+}
+
+@keyframes rotate1 {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes rotate2 {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes rotate3 {
+  0% { transform: rotate(180deg); }
+  100% { transform: rotate(-180deg); }
+}
+
+/* Ajout des styles responsives */
+@media (max-width: 1024px) {
+  .description-text {
+    font-size: 1.2rem;
+    padding: 1.5rem;
+    max-width: 700px;
+  }
+
+  .profile-image-container {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    padding-top: 60px;
+  }
+
+  .description-text {
+    font-size: 1.1rem;
+    padding: 1.2rem;
+    text-align: left;
+    max-width: 100%;
+  }
+
+  .profile-image-container {
+    width: 250px;
+    height: 250px;
+  }
+
+  .rotating-border {
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+  }
+
+  .rotating-border-2 {
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+  }
+
+  .rotating-border-3 {
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    padding-top: 40px;
+  }
+
+  .description-text {
+    font-size: 1rem;
+    padding: 1rem;
+    line-height: 1.6;
+  }
+
+  .profile-image-container {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .rotating-border,
+  .rotating-border-2,
+  .rotating-border-3 {
+    border-width: 1px;
+  }
+
+  .about {
+    font-size: 32px;
+    top: 10%;
+  }
+}
+
+@media (max-width: 320px) {
+  .profile-image-container {
+    width: 180px;
+    height: 180px;
+  }
+
+  .description-text {
+    font-size: 0.9rem;
+    padding: 0.8rem;
+  }
+}
