@@ -1,3 +1,54 @@
+# Mon Portfolio avec Next.js
+
+Bienvenue sur le GitHub de mon portfolio ! Ce projet a été réalisé avec **Next.js** pour présenter mes compétences, projets, expériences professionnelles et personnelles.
+
+---
+
+## 🚀 Aperçu
+
+Mon portfolio met en avant :
+- **Mon profil** : Une présentation concise de qui je suis.
+- **Mes projets** : Exemple : projet kitesurf, sac, etc.
+- **Mes études** : Un résumé de mon parcours académique.
+- **Mes expériences professionnelles** : Description de mes emplois et stages passés.
+- **Mes compétences techniques** : Un aperçu des technologies et outils que je maîtrise.
+- **Animation 3D interactive** : Une visualisation en 3D de ma planche de kitesurf, avec des informations accessibles en cliquant dessus.
+
+💻 **Lien vers le portfolio** : https://guillaumeegmann.com/   
+**Note** : Le site est optimisé pour une utilisation sur ordinateur et mobile. Cependant, la page contenant le modèle 3D (kitesurf) est moins réactive sur certains appareils mobiles.
+
+---
+
+## 🎨 Design & Interface Utilisateur
+
+### Réalisé par moi-même :
+- **Structure du site** : Conception et organisation des pages. Chaque pages a un js et un css, et des components. Chaque components a un js et un css.
+- **Animations** : Utilisation de **Framer Motion**, **React Fiber** et **Drei** pour des transitions fluides et interactives.
+- **Codage des pages** : Développé avec **Next.js** et des styles personnalisés en CSS (sans template).
+- **Routage et API** :
+  - Mise en place du routage pour une navigation fluide.
+  - Formulaire de contact intégré avec **Formspree**, basé sur le tutoriel officiel de Vercel ([voir ici](https://vercel.com/guides/deploying-react-forms-using-formspree-with-vercel)).
+- **Animation 3D** : Créée avec **Three.js**, à partir de mes propres modélisations.
+
+### Axes d'amélioration :
+- Optimisation du code pour simplifier les structures existantes.
+- Amélioration de la lisibilité et de la maintenabilité du projet.
+
+### Ressources externes :
+- Photos et logo personnalisés.
+- Polices utilisées : **Roboto** et **Montserrat**.
+
+---
+
+## 🌐 Déploiement
+
+- **Hébergement** : Déployé sur **Vercel** via une intégration avec GitHub.  
+Pour plus de détails, consultez la [documentation de déploiement Next.js](https://nextjs.org/docs/deployment).
+
+---
+
+## ⚙️ Getting Started
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
