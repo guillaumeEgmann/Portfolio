@@ -10,7 +10,7 @@ const Projectcards = () => {
       title: "Recyclable Kiteboard",
       description: "Design of the first recyclable kiteboard in the world",
       image: projectKite,
-      technologies: ["React", "Node.js", "CSS"],
+      technologies: ["Recyclable", "Composite", "Prototyping"],
       link: "./kiteboard"
     },
     {
@@ -24,7 +24,7 @@ const Projectcards = () => {
         title: "Kickstar - KOLOBIGO",
         description: "Crowdfunding campaign to create a project with an overview at 360°",
         image: projectKickstar,
-        technologies: ["React", "Node.js", "CSS"],
+        technologies: ["Crowdfunding", "Upcycled", "Supply Chain"],
         link: "https://www.kickstarter.com/projects/kolobigo/quickstarter-kolobigo-the-ultimate-phone-strap?lang=fr"
       },
     // Ajoutez d'autres projets...
